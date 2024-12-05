@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    padding-top: 30px;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1204px;
+}
+
+body {
+    background-color: #D8E4E9;
+}
+
+ul {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    list-style: none;
+
+}
+
+ul li {
+    width: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.a1 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.47px;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+
+.btnlan {
+    border-radius: 24px;
+    border: 0;
+    padding: 13px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.7px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+section {
+    text-align: center;
+    padding-top: 169px;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.section1 {
+    background-image: url(Heroimage1.png),
+        linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 40.27%),
+        linear-gradient(0deg, rgba(157, 184, 218, 0.2), rgba(157, 184, 218, 0.2))
+}
+
+.font-bebas {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.section1 h6 {
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    color: #E8EDF2B8
+}
+
+.section1 h1 {
+    font-weight: 400;
+    font-size: 250px;
+    line-height: 250px;
+    color: #FDFDFEFA;
+    border: 2px;
+}
+
+.section1 h5 {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 64px;
+    color: #FFFFFFCC;
+}
+
+.sec2 {
+    background-color: #D8E4E9;
+    background-size: contain;
+    width: 100%;
+    height: 500px;
+    padding-top: 0;
+   
+}
+
+.carddiv {
+    width: 1260px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.card {
+    width: 275.49px;
+    height: 370px;
+    position: relative;
+    border-radius: 40px;
+}
+
+
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 40px;
+    background-size:cover ;
+}
+
+
+
+#card1 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/9411/7af0/fae2d95b54ef6842a38934433c1d99d7?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j6YiKqaPVJ7vUcEjHiCk8V5APzkPes5eI7upqMvcN0CnFP1j7-Hh9GveYN~6h2O-gnh3y2YoUp1AmdTyzBZQTt7~tFsNqiOlYmFLqd14uNUROcJzWkwSlnNXZ2L0~LvU634vjuyQb~h-lAYMOZJpU7BnCmukya6gNWYQGqE3xfXPF9EPWYMETVdRbP2VbihH6hzi7ZLO0BpY9fLlFJJpZts17B6hOa8ssOdUQm~sPVvtOWlepE1icJcTMuYNlNUTqMgJykJAx8JOy3LpphzVFOWWh64QKoKOpFW2bTnVzAN19u~Et2TvhSpU2~4456PXvvkwuhZsHA2OsOwbrPcHfg__);
+}
+
+#card2 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/e124/d31b/4b7edc8a8926233d613c437affc8b621?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=n~2fkiB1rZgiEdzCMha9Uo8-43DRcDCKmA-WBIUIDM~AsTGrws2kqku6K9nFBLdyenp~YpB-86R7PU5e0sZYZnropDZ1rNByXMOY3LBF8NslbdpzPeGpXMSLRXRtNFDvcGoOEImV8xCUtaHJAyu9K1~kC9F0ag~3SBYTlHYzozLFIEpoS5CPbpfhe7tKyjkwW5fhwd~BuOQxV2zs0x-edzcpr~tT0mCUly9NE30IZIG3KbwoT0Is5WhbgKpHQRQCrZDJ5PzBdlVeTpqV1Zy0ErgMPHJBkevID5~ucRYoSMMuRe2jekzqDylXxEtsLtcxNKP-qN0Wrxck-nxx68YTpQ__);
+}
+
+#card3 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/a4d6/0416/d42b9ac033e9ea4869926a93ad64d227?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GxyJ~y1qLLP~KhdsJkV9oleyKhANT0UUIOdLaOFMIwyeUSIQnMAivl41kfeRa0tJ5aDTPZM48hTZrEHaXa8M53y2PMX-zJT2BKp41jh6TrFU-tM3BuEn6grnjRp8ehbXVHlgB2GJwJ08YqBjBkpIEwM-LayF4EKXmXEfwGYRi6WkKhyJuA3mw7fjLZ0SHslRq4nt72J2z06N3KmIwXAScsOII-H5A9A9jPqHc4~5V0oICuQTaomQpfSxCfIJuGJL~U8aqm2-EztxZKX01ePx9d-05IWaTYoecYBtCCetDL~NjWVRWq8iYPe-xR-kg2WYsfSvmFCV39aUQjL28sbXVQ__);
+}
+
+#card4 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/d2b9/7a2b/78cccaa3f6ec592813187ea25729681e?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HL8whnhAzG46qIxI9tolF~eTqvoqIjC1hsj7~YHC2lnOYnNpcGXHx~wDCbnvNtdz7C0La8zO7P1nv2bAtYhX1WBP~Vw5sGTcIKr1pebPiElvAw~uysK3GAGoAMITSBygflFHSSiQ95eVd6RAjDmKwDt~soL18PDfo0MXGY90i-i15wwnmtctbiIseUbxCvGuzJzgXxWq06pbeNwd9RjE9ckdE3w9kXRbmKCED58cPmar27niBiun0zEakVJynPNaIynC7aYRoIbocEHwnVfzHkwAfGdJnkHcv7fw5IYG82orHRIVpwt7AFb8h7f2E1pu9GD9DXOSHAhDPS4Lzo0Gzw__);
+}
+
+.card-border1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:#86b0ca;
+    border-radius: 40px;
+    left: -10px;
+    top: -10px;
+  
+}
+
+.card-border2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:#adc8d1;
+    border-radius: 40px;
+    left: 10px;
+    bottom: -10px;
+   
+}
+
+.card-text {
+    position: absolute;
+    inset: 20px ;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 44.4px;
+    color: #FDFDFE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec3{
+    
+    background-image: url(https://s3-alpha-sig.figma.com/img/0a01/4441/f3b23c9e936f611b9b24ad9f5db5c0df?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=N4IrpUy8C4R8te1OmBhxxhyKXRGXAXb5HWxQcDW73nkz1ayslIDv~L6hx-SNxRfooQgPY8hZpaK3u0dpNfwSlKhyEnL4oKkx2tkWHcpisfpk7s~IRTjr0-gsQbYkoeYi~3fqfgfIG-lINO-N04dWVmtbibJOnRFXqCqyNnuc3HrnbPvhagB-6x5-fUym5yrDh1bG44UNV-it9CZb7aV-9WXoU-TW8SWaqt46KlWqJFeFpTOgqkTh4WAzIZCtHLM9mJe4Jhcmj6VlxbxS-7~M8A9~~8KIRuW842NipKYtutlg7CzssB6yGwE875IF4Z2ZURdVPxIij732PfUP5s3PkQ__);
+}
+
+section h2{
+     font-weight: 600;
+     font-size: 42px;
+     line-height: 50px;
+     color: black;
+    
+}
+
+section h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23.53px;
+    color:#18181BB2 ;
+    padding-top: 10px;
+}
+
+.sec3box{
+    width: 513px;
+    height: 112px;
+    border-radius: 120px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+}
+
+#box1{
+    background-color: #EEE9D9;
+}
+
+#box2{
+    background-color: #8BB8C1CC;
+}
+
+#box3{
+    background-color: #AAD8D7CC;
+}
+
+#box4{
+    background-color: #8BC0BDCC;
+}
+
+#box5{
+    background-color: #97CCE0CC;
+}
+
+h4{
+font-weight: 500;
+font-size: 24px;
+line-height: 28.25px;
+color: #09090B;
+text-align: start
+
+}
+
+.container{
+    width: 1440px;
+    margin: auto
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.psec3{
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #18181B;
+}
+#pin{
+    width: 14px;
+    height: 14px;
+    top: 0.5px;
+}
+
+.circle{
+    width: 52px;
+    height: 52px;
+    background-color: #F7F6F3;
+    border-radius: 70px;
+}
+
+.pcircle{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.48px;
+    color: black;
+}
+
+.divcircle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divpin{
+width: 94px;
+display: flex;
+flex-direction: row;
+gap: 1px;
+}
+
+.divp{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;   
+}
+
+.divpar{
+    position: absolute;
+    width: 470px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divbox{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.divboxbig{
+    padding-top: 60px;
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    left:120px;
+    top:264px;
+
+}
