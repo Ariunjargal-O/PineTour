@@ -31,7 +31,6 @@ ul {
     gap: 24px;
     justify-content: center;
     list-style: none;
-
 }
 
 ul li {
@@ -48,7 +47,6 @@ a {
     line-height: 21.47px;
     align-items: center;
     color: #FFFFFF;
-
 }
 
 .btnlan {
@@ -69,6 +67,7 @@ section {
     height: 100vh;
     width: 100%;
     font-family: "Bebas Neue", sans-serif;
+    position: relative;
 }
 
 .section1 {
@@ -109,7 +108,6 @@ section {
     width: 100%;
     height: 500px;
     padding-top: 0;
-   
 }
 
 .carddiv {
@@ -120,7 +118,6 @@ section {
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
-
 }
 
 .card {
@@ -130,8 +127,6 @@ section {
     border-radius: 40px;
 }
 
-
-
 .card-image {
     width: 100%;
     height: 100%;
@@ -139,8 +134,6 @@ section {
     border-radius: 40px;
     background-size:cover ;
 }
-
-
 
 #card1 {
     background-image: url(https://s3-alpha-sig.figma.com/img/9411/7af0/fae2d95b54ef6842a38934433c1d99d7?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j6YiKqaPVJ7vUcEjHiCk8V5APzkPes5eI7upqMvcN0CnFP1j7-Hh9GveYN~6h2O-gnh3y2YoUp1AmdTyzBZQTt7~tFsNqiOlYmFLqd14uNUROcJzWkwSlnNXZ2L0~LvU634vjuyQb~h-lAYMOZJpU7BnCmukya6gNWYQGqE3xfXPF9EPWYMETVdRbP2VbihH6hzi7ZLO0BpY9fLlFJJpZts17B6hOa8ssOdUQm~sPVvtOWlepE1icJcTMuYNlNUTqMgJykJAx8JOy3LpphzVFOWWh64QKoKOpFW2bTnVzAN19u~Et2TvhSpU2~4456PXvvkwuhZsHA2OsOwbrPcHfg__);
@@ -166,7 +159,6 @@ section {
     border-radius: 40px;
     left: -10px;
     top: -10px;
-  
 }
 
 .card-border2{
@@ -177,7 +169,6 @@ section {
     border-radius: 40px;
     left: 10px;
     bottom: -10px;
-   
 }
 
 .card-text {
@@ -202,7 +193,6 @@ section h2{
      font-size: 42px;
      line-height: 50px;
      color: black;
-    
 }
 
 section h3{
@@ -213,33 +203,23 @@ section h3{
     padding-top: 10px;
 }
 
-.sec3box{
-    width: 513px;
-    height: 112px;
-    border-radius: 120px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    position: relative;
-}
-
-#box1{
+.box1{
     background-color: #EEE9D9;
 }
 
-#box2{
+.box2{
     background-color: #8BB8C1CC;
 }
 
-#box3{
+.box3{
     background-color: #AAD8D7CC;
 }
 
-#box4{
+.box4{
     background-color: #8BC0BDCC;
 }
 
-#box5{
+.box5{
     background-color: #97CCE0CC;
 }
 
@@ -249,15 +229,12 @@ font-size: 24px;
 line-height: 28.25px;
 color: #09090B;
 text-align: start
-
 }
 
 .container{
     width: 1440px;
     margin: auto
 }
-
-
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -268,6 +245,7 @@ text-align: start
     line-height: 14.63px;
     color: #18181B;
 }
+
 #pin{
     width: 14px;
     height: 14px;
@@ -301,35 +279,100 @@ flex-direction: row;
 gap: 1px;
 }
 
-.divp{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;   
-}
-
 .divpar{
-    position: absolute;
     width: 470px;
-    height: 100%;
+    height: 640px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
-
-.divbox{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    margin-left: 30px;
 }
 
 .divboxbig{
+    position: absolute;
     padding-top: 60px;
     display: flex;
     flex-direction:column;
     gap: 20px;
-    left:120px;
-    top:264px;
+    padding-left: 120px;
+}
+.hoverima {
+    height:453px ;
+    width: 453px;
+    display: none;
+}
+
+#ulaanbaatar{
+    background-image: url(https://s3-alpha-sig.figma.com/img/7d8a/5e71/16010885e9b9cf404e7b21d9eda6fd49?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YmR0u~d6BpUSuBb4Amo2z4Hm687N5oa8O7W0tQry3OD4pfi-xrjq7rcyPAbu43pwFdokBka4m9iddCGX4KQ60wsBTZeuAt98zNOWIPDlsLL2HC4l7XzKH~TA1hE02iFX4CUv9sGPBYfwQGrGrN~xr65YUkg6e-yUSAwvQTSxHZf~ZEklPfGSr0OMo41VRRQAAyRyQPx1-nMC63ZUDgtexwD8L0Nd-yVPD8Hg2PrTpOIpFV-9sCf7JdCQWcBEpjONGCYgiGmrbnrSNnd50zekqDgrvRk5WnDzPoXdkkAqIdo-nK60MPQirTfWu8vsxHW7gwOzRW0hBKfnU2ZkQWlZWg__);
+}
+#amarbayasgalan{
+    background-image: url(https://s3-alpha-sig.figma.com/img/8f09/fa0d/d136f7ce9c71c9e1f9031385625fbe25?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QCqB4XXM0oVpt0i9zHYavSzh-x1Bpx8Rs0H~9GDTY5eNtAN6p2F5eFlC1vTevVH~Mnsx2mgQDYqpvtIf2MGJ4-2hBiO62q3NjeR1KHO4-0ESW5fadS~gH73ZeAy2mtjJvkiXfBgqMr4PDeepsGHkOMpV0GWQCtMDlMC~7ghbYsRDsJhclI50SM16oDabFiV6RHozOfxXmZsXL6BKw1qo9xFjWkK7Riw7jYSkvaKxV~-Addw~JxTjkvHD6rmP7ZEh9FGIfwgc-M96vtpz8DxygvTO~lRkbAgd3qCvKJStx7VgYb1oiGjXbILRX3P1xmsrc6pIWeTfd8WVIrp87negqw__);
+}
+#khorgo{
+    background-image: url(https://s3-alpha-sig.figma.com/img/8820/a5c8/8b32e176586e22e170a49302cd4312c1?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=frA6daWtZGg1q7ZMSkxaEqlqjN9eGHFC0gpiwQW9ZwPb0Lw9rXjcH6XHQHhf27wsGKQfyk4BMjmVV-dPuQM23UG4cx5UhGpM~DJOuzg~HyXNwP1Y7UVbowOH-ciihDq7v7IlzUgB2wCFydkq4uuP9RnZQEzf-p2nZxN-8O6S8FxJY3dfTFjFrKW9Yn7Sc6m9F19k5w6Kj1cpYbja6Q1DaEm0Q8P2p0UA672dVNjg8vtsLl~5rZijLpmYamk7OkDK7hiYyNdwXncZuzvvhG~E2IMhZEKoBZ-UKBFKvQB36XLX9lnFKZbQbPypXVXn25WQQGfm5NSF7zlYNH-yvOLbXw__);
 
 }
+#terkh{
+    background-image: url(https://s3-alpha-sig.figma.com/img/b635/3498/5a1bc5ae5c2f51cc2bb4ca30b089e3a8?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bn4S63hShgEGJD7eOYawJ4xn1igc~kRfj2drA-oLlFUDC03ExKPcriGbCEtlVJwtoznbHtigFsSIGHQtlQucJQW-bY33vQp2jv8HP2JT-FN0lcXDqCytJmW-Kd6wb41la7dMOJZ8XbpnKtoD-g9LhbyzyIcpSPThoC7uIJA5~hUZGqgoXMvu~jt5E1wFRSrvKWDOi81NriTYzX~SquObaFDhGWT05B20CosdoIOSazXEQdO4QK1IHRYAba4ogbAgpcGTPLlbcdDWroGC6X7O8Saf-pji9pcKlkX0HveiiYt58rQULMHJjEPUQN7SYyxZnxv47mNq2zfI6Nc9f6zFqg__);
+
+}
+#khuvsgul{
+    background-image: url(https://s3-alpha-sig.figma.com/img/abf7/b908/4f304b70834bf8724703cf382d2f4529?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YPPOYrA3l07~fRM1tfWn~rrlbp5EZpa4-B1SyaiLcTWnbH6Eo9IFM4kEbnHZam4GwcASk6eTzkAvp0j83znTeug7Gx~1TyJMF4MN2BEQVaXG-5a2f3AhdFXwJRlJnPd5gcQGvrufw6MQcMLwGRxy1ywWfPZH68xgFG80LZt-qG0jOa6RndZwO2mElBqhPwiWJYb5ZAkSMCVJB2L7A7DtVsLVIWwZT84dhCu~e855ap4uebsPnm-cLiFJriLx8frvzL3N1ZaSGcac6i4l3TfmTMmQdAxTBfSRXv9Zg6R~-FfpY9meh2Qzvh9YyE5NhF8h315FMe7hvX~WHBLo~VHdFg__);
+
+}
+
+.sec3box{
+    width: 513px;
+    height: 112px;
+    border-radius: 120px;
+    border: 5px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.sec3box .boxhover:hover{
+    border-color: white; 
+}
+
+
+.box {
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    border: 5px solid rgba(0,0,0,0);
+
+}
+.box:hover {
+    border-color: red;
+}
+.box:hover .box-img {
+    display: block;
+}
+
+.box-pink {
+    background-color: pink;
+}
+
+.box-green {
+    background-color: green;
+}
+
+.box-blue {
+    background-color: blue;
+}
+
+.box-img {
+    display: none;
+    width: 300px;
+    height: 300px;
+    background-color: #86b0ca;
+    border-radius: 100%;
+    position: absolute;
+    top: 100px;
+    left: 500px;
+}
+
